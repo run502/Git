@@ -1,0 +1,35 @@
+Author:Goson
+Time:2017/4/3
+ref:http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+创建仓库
+
+$git init
+
+与远程仓库建立连接
+
+$git remote add origin git@github.com:zhangsan/nihao.git
+
+传送所有更新到远程仓库，并简化后续传送
+
+$git push -u origin master
+
+后续传送就只需要这样,-u参数会把本地master分支和远程master分支连接起来
+
+$git push origin master
+
+把文件添加到仓库,类似于缓冲区
+
+$git add readme.txt
+
+把文件提交到仓库,类似于输出缓冲区
+
+$git commit readme.txt
+
+查看仓库当前状态
+
+$git status
+
+查看修改情况
+
+$git diff readme.txt
